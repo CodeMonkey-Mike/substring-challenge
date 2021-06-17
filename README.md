@@ -36,19 +36,23 @@ There is a list of packages that you should be at least familiar with before sta
 - [x] [lint-staged](https://github.com/okonet/lint-staged)
 - [x] [Husky](https://github.com/typicode/husky)
 
+## Introduction
+- The small site with algorithm find common substrings
+
+<b>UI:</b>
+![UI](https://raw.githubusercontent.com/CodeMonkey-Mike/substring-challenge/master/image.png)
+
 ## Quick start
 
 #### Make sure that you have Node.js and npm installed.
 
 #### Clone this repo using
 
-`git clone --depth=1 <GIT_URL> <YOUR_PROJECT_NAME> && cd <YOUR_PROJECT_NAME> && rm -rf .git`
-
-After cloning this repository, you can add your own git repository use it as the original.
+`git clone https://github.com/CodeMonkey-Mike/substring-challenge.git`
 
 #### Move to the appropriate directory:
 
-`cd <YOUR_PROJECT_NAME>`
+`cd substring-challenge`
 
 Check out a list script below
 
@@ -60,21 +64,8 @@ Check out a list script below
 
 #### Start development
 
-`npm run dev` or `yarn dev`
-
-#### Test
-
-`npm run test` or `yarn test`
+`npm run dev` or `yarn dev` 
 
 #### Production build
 
 `npm run build` or `yarn build`
-
-## How can use the boilerplat
-
-This is boilerplate and it doesn't require one-way development.
-All folder structure is just an example to follow, you could create which folder you see it make sense to you.
-
-All contributions to this boilerplate are welcome.
-
-Cheers!
