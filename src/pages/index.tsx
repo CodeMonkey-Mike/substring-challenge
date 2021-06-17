@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import { Wrapper } from './about';
+import { Substring } from 'src/containers';
 
 const Index: React.FC = () => {
   return (
@@ -8,7 +8,7 @@ const Index: React.FC = () => {
       <Head>
         <meta name="robots" content="noindex, nofollow" />
       </Head>
-      <Wrapper>Welcome to Krapstack boilerplate!</Wrapper>
+      <Substring />
     </>
   );
 };

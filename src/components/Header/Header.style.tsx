@@ -18,4 +18,13 @@ const HeaderWrapper = styled.header`
   }
 `;
 
+export const Heading = styled.h1`
+  color: var(--blue);
+  font-size: var(--text-lg);
+  padding: var(--space-3);
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+`;
+
 export default HeaderWrapper;
